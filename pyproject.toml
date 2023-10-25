@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yacc"
+version = "0.0.1"
+description = "YACC - Yet Another Character Creator. A terminal based character creator for D&D and other pen and paper games."
+authors = ["ByteOtter <christopher-hock@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyTermGUI = "^7.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
